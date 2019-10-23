@@ -2,7 +2,7 @@
   position: fixed;
   width: 100%;
   background-color: #fcfcfc;
-  padding: 20px 10px;
+  padding: 20px 50px;
   left: 0px;
   bottom: 0px;
   border-top: 1px solid #202020;
@@ -14,4 +14,23 @@
 }
 .nav i {
   font-size: 20px;
+}
+
+.nav .nav__list-link {
+  position: relative;
+}
+
+.nav .nav__badge {
+  position: absolute;
+  top: -8px;
+  left: 8px;
+  color: white;
+  background-color: #dc5d46;
+  width: 18px;
+  height: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  font-size: 1px;
 }
