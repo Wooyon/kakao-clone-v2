@@ -24,6 +24,7 @@
   position: absolute;
   top: -8px;
   left: 8px;
+  font-size: 10px;
   color: white;
   background-color: #dc5d46;
   width: 18px;
@@ -32,7 +33,6 @@
   justify-content: center;
   align-items: center;
   border-radius: 50%;
-  font-size: 1px;
 }
 
 @keyframes showNavBar {
